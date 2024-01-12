@@ -1,10 +1,14 @@
 services:
 
-  frontend:
-    build: ./frontend
+  front:
+    build: ./front
 
   crud:
     build: ./crud
+    volumes:
+      - './crud:/go/src/app'
+    ports:
+      - '8080:8080'
 
   mid:
     build: ./mid

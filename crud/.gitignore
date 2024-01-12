@@ -1,0 +1,6 @@
+# Build & temporary files
+app
+crud
+*.exe
+*~
+swagger
