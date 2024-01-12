@@ -8,8 +8,12 @@ The goal is to build a multi-language/framework and mini-infrastructure (docker-
 
 With the following overall stages:
 
-1. Create base and working infrastructure
-2. Integrate with MSAL
+- [x] 1. Create base projects and working infrastructure
+- [ ] 2. Integrate project:
+     - [ ] front --> mid
+     - [ ] front --> crud
+     - [ ] mid --> crud
+- [ ] 3. Integrate with [MSAL](https://learn.microsoft.com/en-us/entra/identity-platform/sample-v2-code)
 
 ## Requirements
 
@@ -30,3 +34,7 @@ With the following overall stages:
 ### Stop & Clean
 
 `docker compose down`
+
+## Additional references:
+
+- [GitHub - Azure AD B2C Community](https://github.com/azure-ad-b2c)
