@@ -1,0 +1,10 @@
+services:
+
+  frontend:
+    build: ./frontend
+
+  crud:
+    build: ./crud
+
+  mid:
+    build: ./mid
