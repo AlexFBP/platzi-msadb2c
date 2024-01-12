@@ -1,0 +1,20 @@
+# Macro for all binary files that should use Git LFS.
+[attr]lfs -text filter=lfs diff=lfs merge=lfs
+
+# Images
+*.ai lfs
+*.bmp lfs
+*.dds lfs
+*.gif lfs
+*.ico lfs
+*.iff lfs
+*.jpg lfs
+*.jpeg lfs
+*.pict lfs
+*.png lfs
+*.psd lfs
+*.tga lfs
+*.tif lfs
+*.tiff lfs
+*.webp lfs
+*.xcf lfs
