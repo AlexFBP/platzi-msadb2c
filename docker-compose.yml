@@ -12,3 +12,7 @@ services:
 
   mid:
     build: ./mid
+    volumes:
+      - './mid:/app'
+    ports:
+      - '8079:3000'
